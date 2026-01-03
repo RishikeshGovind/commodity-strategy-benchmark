@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# Mac
+.DS_Store
+
+# Env files
+.env
