@@ -282,7 +282,15 @@ fig.update_layout(
     xaxis_rangeslider_visible=False,
 )
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(
+    fig,
+    use_container_width=True,
+    config={
+        "scrollZoom": False,
+        "displayModeBar": "hover",  # only shows on desktop hover
+        "responsive": True
+    }
+)
 
 # -------------------------------
 # Explanation
